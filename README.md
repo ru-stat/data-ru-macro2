@@ -17,6 +17,16 @@
 
 - [ ] данные на R по "зеркальным" балансам ЦБ и банков
 
+
+Репозитарии в разработке:
+
+- <https://github.com/epogrebnyak/rosstat-kep-data>
+- <https://github.com/epogrebnyak/rosstat-806-regional>
+- <https://github.com/epogrebnyak/cbr-soap-py>
+- <https://github.com/epogrebnyak/cbr-db>
+- <https://github.com/epogrebnyak/fx-oil>
+- <https://github.com/epogrebnyak/additional/tree/master/plotting>
+
 ## 1. Цены на нефть и другие товары 
  - Brent, EIA: см. <https://github.com/epogrebnyak/fx-oil>
  - Urals - хорошего открытого источника нет
@@ -28,7 +38,7 @@
 
 2.2 Оперативная статистика:
 
- - Краткосрочные эконимические показатели РФ (КЭП): см. <https://github.com/epogrebnyak/fx-oil>
+ - Краткосрочные эконимические показатели РФ (КЭП): см. <https://github.com/epogrebnyak/rosstat-kep-data>
  - Социально-экономическое положежние РФ (СЭП)
 
 2.3 СНС и информация по темам 
