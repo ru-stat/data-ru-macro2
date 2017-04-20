@@ -1,3 +1,33 @@
+# Доступные данные
+
+Обозначение   | Источник                   | Название
+--------------|----------------------------|--------------------------------------------
+KEP           | [Росстат][kep-src]         | [Краткосрочные макроэкономические показатели РФ][kep]
+806           | [Росстат][806-src]         | [Социально-экономическое положение регионов РФ][806]
+FX            | [ЦБ РФ][806-src]           | <https://github.com/epogrebnyak/data-fx-oil>
+OIL           | Quandl                     | <https://github.com/epogrebnyak/data-fx-oil>
+UST           | [US Treasury][ust-src]     | [Кривые дохоности гособлигаций США][ust]
+CB_SOAP       | ЦБ РФ                      | [Различные данные ЦБ через SOAP](https://github.com/epogrebnyak/cbr-soap-py)
+BANKSTAT      | ЦБ РФ                      | Балансы банковской системы
+BANKSTAT      | ЦБ РФ                      | [Статистика индивидуальных банков](https://github.com/epogrebnyak/cbr-db)
+BOP           | ЦБ РФ                      | Платежный баланс
+...           | ФTC                        |  ...
+...           | Казначейство               |  ...
+
+[kep-src]: http://www.gks.ru/wps/wcm/connect/rosstat_main/rosstat/ru/statistics/publications/catalog/doc_1140080765391
+[kep]: https://github.com/epogrebnyak/data-rosstat-kep
+
+[806-src]: http://www.gks.ru/wps/wcm/connect/rosstat_main/rosstat/ru/statistics/publications/catalog/doc_1246601078438
+[806]: https://github.com/epogrebnyak/rosstat-806-regional
+
+[ust-src]: https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/TextView.aspx?data=yield
+[ust]: https://github.com/epogrebnyak/ust
+
+# Способы визуализации
+
+- <https://github.com/epogrebnyak/viz_demo>
+- <https://github.com/epogrebnyak/additional/tree/master/plotting>
+
 # Задачи 
 
 1. Как сделать данные российской макроэкономической статистики такими же доступными и удобными для скачивания и обработки, как [FRED](https://fred.stlouisfed.org/)? *#dataset, #api, #quick_update*
